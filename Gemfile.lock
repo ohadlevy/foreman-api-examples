@@ -1,0 +1,27 @@
+GEM
+  specs:
+    apipie-rails (0.0.13)
+    coderay (1.0.8)
+    foreman_api (0.0.8)
+      apipie-rails (~> 0.0.12)
+      json
+      oauth
+      rest-client (>= 1.6.1)
+    json (1.7.5)
+    method_source (0.8.1)
+    mime-types (1.19)
+    oauth (0.4.7)
+    pry (0.9.10)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.3.1)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    slop (3.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  foreman_api
+  pry
